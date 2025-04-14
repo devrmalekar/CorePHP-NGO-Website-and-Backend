@@ -1,0 +1,51 @@
+<button type='button' id='confirmBtn' class='btn btn-info btn-lg' data-toggle='modal' data-target='#confirmSubmit'>Open Modal</button>
+<!-- Modal -->
+<div id='confirmSubmit' class='modal fade' role='dialog'>
+    <div class='modal-dialog'>
+        <!-- Modal content-->
+        <div class='modal-content'>
+            <div class='modal-header'>
+                <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                <h4 class='modal-title'>Please Review Event Details Before Submit</h4>
+            </div>
+            <div class='modal-body'>
+                <div class='row modalRow'>
+                    <label for='EventTitle' class='col-sm-4 control-label'><span>Title :</span></label>
+                    <label type='text' class='label-info col-sm-8' id='EventTitle' ></label>
+                </div>
+
+                <div class='row modalRow'>
+                    <label for='EventDesc' class='col-sm-4 control-label'><span>Description :</span></label>
+                    <label type='text' class='label-info col-sm-8' id='EventDesc'></label>
+
+                </div>
+
+                <div class='row modalRow'>
+                    <label for='EventDate' class='col-sm-4 control-label'><span>Date :</span></label>
+                    <label type='date' class='label-info col-sm-8' id='EventDate'></label>
+                </div>
+
+                <div class='row modalRow'>
+                    <label for='EventStartTime' class='col-sm-4 control-label'><span>Start Time :</span></label>
+                    <label type='text' class='label-info col-sm-8' id='EventStartTime'></label>
+                </div>
+
+                <div class='row modalRow'>
+                    <label for='EventEndTime' class='col-sm-4 control-label'><span>End Time :</span></label>
+                    <label type='text' class='label-info col-sm-8' id='EventEndTime'></label>
+                </div>
+
+                <div class='row modalRow'>
+                    <label for='EventPlace' class='col-sm-4 control-label'><span>Place :</span></label>
+                    <label type='text' class='label-info col-sm-8' id='EventPlace'></label>
+                </div>
+
+            </div>
+            <div class='modal-footer'>
+                <button type='button' class='btn btn-default' data-dismiss='modal'>Cancel</button>
+                <input type='submit' class='btn btn-default' name='save' value='Save' id='submitBttn'  tabindex='9' />
+            </div>
+        </div>
+
+    </div>
+</div>

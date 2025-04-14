@@ -1,0 +1,529 @@
+/*
+    Customize logo
+*/
+@charset "UTF-8";
+body{
+    background-color: #FFFFF7 !important;
+}
+
+#mfn-navbar{
+    background-color: #419641 !important;
+    border: none !important;
+    position: fixed !important;
+    z-index: 1;
+    width: 100%;
+}
+
+.modalRow{
+    margin: 0px auto !important;;
+}
+
+.error{
+    color: #ee0823;
+}
+
+::-moz-selection { background: #4aaf51; color: #fff; text-shadow: none; }
+::selection { background: #4aaf51; color: #fff; text-shadow: none; }
+
+.logo{
+    height: inherit;
+}
+
+.objective{
+    text-align: left;
+}
+
+.item {
+    display: none;
+    position: relative;
+.transition(.5s ease-in-out left);
+}
+
+.ech-p{
+    font-size: medium;
+    text-align: justify;
+}
+#parent { overflow:hidden; text-overflow-multiline:ellipsis; }
+
+/* Customize top header */
+#top-bar{
+    margin: 0px 10%;
+}
+
+#dropDownDonate{
+    float: right;
+    padding: 7px 15px;
+}
+.theme-center{
+    text-align: center;
+    /*margin: 0px !important;*/
+    font-size: 1em;
+}
+
+/* Customize navbar */
+#navbar{
+    margin: 0px 8% !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class*/
+.carousel {
+    height: 330px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel>.carousel-inner, .item {
+    height: inherit;
+}
+.carousel-inner > .item > img {
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+/*Customize mainFeatures */
+#main_feature {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    text-align: center;
+    padding: 2%;
+}
+
+/*Fit images */
+.fitImg{
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+#whoWeAre{
+    margin: 2% 5%;
+}
+
+#orgInfo{
+    width: 75%;
+    margin: 2%;
+}
+
+#right-container{
+    /*float: right;
+  width: 25%;*/
+    margin-left: 2%;
+    background-color: #2e6da4;
+}
+
+.sidebar{
+    padding: 40px;
+    background-color: #f7f6f1;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+#right-sidebar>.row{
+    margin-down: 2%;
+}
+
+#event-carousel{
+    height: auto;
+    margin: 0px auto;
+}
+#event-carousel>.carousel-inner>.item {
+    height: auto;
+    background: none;
+}
+
+#event-carousel>.carousel-indicators {
+    bottom: -25%;
+    z-index: 0;
+}
+
+#vision{
+    margin-left: 15%;
+    font-family: fantasy;
+}
+
+.section-title {
+    border-bottom: 1px solid #dddfe4;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.scholar-float-left{
+    float:  left;
+    width: 40%;
+}
+
+.scholar-right{
+    padding: 4%;
+    float: right; padding: 4%;
+    width: 60%;
+}
+
+.scholar-label{
+    width: 35%;
+    float: left;
+}
+
+.scholar-right>.row>p{
+    width: 65%;
+    float: right;
+
+}
+/***** Top content *****/
+
+.inner-bg {
+    padding: 100px 0 170px 0;
+}
+
+.top-content .text {
+    color: #fff;
+}
+
+.top-content .text h1 { color: #fff; }
+
+.top-content .description {
+    margin: 20px 0 10px 0;
+}
+
+.top-content .description p { opacity: 0.8; }
+
+.top-content .description a {
+    color: #fff;
+}
+.top-content .description a:hover,
+.top-content .description a:focus { border-bottom: 1px dotted #fff; }
+
+.form-box {
+    margin-top: 35px;
+}
+
+.form-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: #fff;
+    -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+    text-align: left;
+}
+
+.form-top-left {
+    float: left;
+    width: 75%;
+    padding-top: 25px;
+}
+
+.form-top-left h3 { margin-top: 0; }
+
+.form-top-right {
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+    font-size: 66px;
+    color: #ddd;
+    line-height: 100px;
+    text-align: right;
+}
+
+.form-bottom {
+    padding: 25px 25px 30px 25px;
+    background: #eee;
+    -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+
+.form-bottom form textarea {
+    height: 100px;
+}
+
+.form-bottom form button.btn {
+    width: 100%;
+}
+
+.form-bottom form .input-error {
+    border-color: #4aaf51;
+}
+
+.social-login {
+    margin-top: 35px;
+}
+
+.social-login h3 {
+    color: #fff;
+}
+
+.social-login-buttons {
+    margin-top: 25px;
+}
+
+.addPhoto{
+    width: 70%;
+    margin: 2%;
+    float: left;
+}
+
+.addVideo{
+    width: 40%;
+    margin: 2%;
+    float: left;
+}
+
+.removePhoto{
+    margin-top: 2%;
+}
+
+.removeVideo{
+    margin-top: 2%;
+}
+
+.idyl{
+    font-weight: normal;
+}
+
+.idyllic-link{
+    margin-left: 5%;
+    font-size: 17px;
+}
+
+.idyllic-name{
+    float: left;
+}
+
+#content>section{
+    display: none;
+}
+
+#home{
+    width: 100%;
+}
+
+#content>section[class='active']{
+    display: block;
+}
+
+#contact-form input, #volunter-form input {
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 10px;
+    min-height: 44px;
+    padding: 6px 18px;
+}
+
+.gallery-thumbnail{
+    float: left;
+    margin: 2px;
+}
+
+.gallery-img{
+    height: 150px !important;
+    width: auto;
+}
+
+.lefthead{
+    width: 10%;
+    float: left;
+
+}
+
+.righthead{
+    width: 90%;
+    float: right;
+
+}
+
+.main-content{
+    /*margin-top: 60px;*/
+}
+
+.dashboard-img{
+    height: 200px !important;
+}
+
+.dashboard:hover .dashboard-caption{
+    display: block;
+}
+.dashboard{
+    text-align: center;
+}
+.dashboard-caption{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.dashboard-row{
+    margin-bottom: 20px;
+}
+
+#map{
+    margin-top: 10%;
+}
+
+#logo{
+    margin-top: 3%;
+}
+
+
+#mfn-navbar>div{
+    width: 100% !important;
+}
+
+/**google maps captcha and info window ***/
+#captcha{
+    margin: 4%;
+}
+
+#infowindow{
+    width: 400px;
+}
+
+/***** Media queries *****/
+
+@media  (max-width: 1225px)  and (min-width: 1005px){
+    #navbar{
+        margin: 0px 0.85% !important;
+    }
+
+    form[class='navbar-form navbar-left']{
+        display: block;
+    }
+}
+@media (min-width: 1038px) and (max-width: 1105px) {
+    form[class='navbar-form navbar-left']{
+        width: 20%;
+    }
+}
+@media  (max-width: 1037px) {
+    form[class='navbar-form navbar-left']{
+        display: none;
+    }
+
+    #navbar{
+        margin: 0px auto !important;
+    }
+}
+
+@media (max-width: 830px) {
+    #dropDownDonate{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .inner-bg { padding: 60px 0 110px 0; }
+
+    #homelogo{
+        display: block ;
+    }
+
+    #homelogo>a{
+        padding: 0 !important; margin-right: 20px; margin-left: 20px;
+    }
+
+    #homelogo>a>img{
+        height: 50px;
+    }
+
+    #home{
+        margin-top: 15px;
+    }
+
+    #tooglemin{
+        display: block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    #tooglemin>div>a{
+        font-size: 24px;  color: #FFF !important; margin-left: 10px;
+    }
+}
+
+
+
+@media (max-width: 600px){
+    .carousel {
+        height: 205px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 415px) {
+
+    h1, h2 { font-size: 32px; }
+
+}
+@media (max-width: 1240px) {
+    #logo{
+        display: none;
+    }
+
+    .righthead{
+        width: 100%;
+        float: none;
+    }
+
+    .lefthead{
+        float: none;
+    }
+}
+
+@media (max-width: 991px){
+    #right-sidebar{
+        display: none;
+    }
+}
+
+
+@media (max-width: 456px) and (min-width: 327px){
+    h1, h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size:20px;
+    }
+}
+
+@media (max-width: 456px){
+    h1,h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 768px){
+    #homelogo{
+        display: none ;
+    }
+
+    #tooglemin{
+        display: none;
+    }
+}
+
+@media (max-width: 919px) and (min-width: 767px){
+    .navbar-form {
+        display: none;
+    }
+}

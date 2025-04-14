@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+* {
+/* With these codes padding and border does not increase it's width and gives intuitive style.*/
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+body {
+margin:0;
+padding:0;
+font-family: 'Roboto Slab', serif;
+}
+
+
+div#envelope{
+width: 80%;
+margin: 10px 30% 10px 11%;
+padding:10px 0;
+border: 2px solid gray;
+border-radius:10px;
+}
+form{
+width:70%;
+margin:4% 15%;
+}
+
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text], input[type=number]{
+margin-bottom: 20px;
+margin-top: 10px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+input[type=submit]
+{
+margin-bottom: 20px;
+width:100%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #390;
+color: aliceblue;
+font-size:15px;
+cursor:pointer;
+}
+#submit:hover
+{
+background-color: #3C6;
+}
+textarea{
+width:100%;
+padding: 15px;
+margin-top: 10px;
+border:1px solid #7ac9b7;
+border-radius:5px;
+margin-bottom: 20px;
+resize:none;
+}
+input[type=text]:focus,textarea:focus {
+border-color: #4697e4;
+}
+
+select {
+
+    background-image: url(/assets/images/responsive_arrow.png);
+    background-repeat: no-repeat;
+    background-position: 300px;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #7ac9b7;
+    font-family: Cursive;
+    line-height: 1;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #000;
+    font-size: 20px;
+    -webkit-appearance: none;
+    outline: none;
+}
+select:hover {
+    color:#00ff7f
+}
